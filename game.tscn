@@ -8,10 +8,20 @@
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -10
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 offset_left = 3.0
 offset_right = 1924.0
 offset_bottom = 1080.0
+
+[node name="Player" parent="." instance=ExtResource("1_80nbo")]
+position = Vector2(978, 588)
+
+[node name="Mob" parent="." instance=ExtResource("3_feb5d")]
+position = Vector2(541, 327)
+script = ExtResource("4_fc0e3")
 
 [node name="PineTree" parent="." instance=ExtResource("2_e2o6t")]
 position = Vector2(1537, 844)
@@ -31,9 +41,6 @@ position = Vector2(1543, 201)
 [node name="PineTree5" parent="." instance=ExtResource("2_e2o6t")]
 position = Vector2(1475, 264)
 
-[node name="Player" parent="." instance=ExtResource("1_80nbo")]
-position = Vector2(978, 588)
-
 [node name="PineTree7" parent="." instance=ExtResource("2_e2o6t")]
 position = Vector2(855, 318)
 
@@ -42,7 +49,3 @@ position = Vector2(1033, 1027)
 
 [node name="PineTree9" parent="." instance=ExtResource("2_e2o6t")]
 position = Vector2(137, 995)
-
-[node name="Mob" parent="." instance=ExtResource("3_feb5d")]
-position = Vector2(545, 384)
-script = ExtResource("4_fc0e3")

@@ -1,9 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1734551736.0
+::res://::1734561453.0
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1734507168::0::1::::<><><><>::
-game.tscn::PackedScene::4193613552059801431::1734551769::0::1::::<><><><>::uid://cb2uvxxd5ampy::::res://player.tscn<>uid://qsep121577me::::res://pine_tree.tscn<>uid://damlj4fng5qvh::::res://characters/mob.tscn
+game.tscn::PackedScene::4193613552059801431::1734552070::0::1::::<><><><>::uid://cb2uvxxd5ampy::::res://player.tscn<>uid://qsep121577me::::res://pine_tree.tscn<>uid://damlj4fng5qvh::::res://mob.tscn<>uid://bur8rnu1e7fs6::::res://mob.gd
 icon.png::CompressedTexture2D::621515402784007901::1734507168::1734507191::1::::<><><>130257868ffab54ab02a8c8a0dce8413<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
-mob.gd::GDScript::2404601562960885413::1734551736::0::1::::<>CharacterBody2D<><><>::
+mob.gd::GDScript::3827326712418012183::1734551996::0::1::::<>CharacterBody2D<><><>::
+mob.tscn::PackedScene::7184720074694648769::1734551797::0::1::::<><><><>::uid://ogik4s70pgwl::::res://characters/slime/slime.tscn
 pine_tree.tscn::PackedScene::1160451361200762620::1734551770::0::1::::<><><><>::uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://caqfk2xng5v5u::::res://trees/pine_tree.png
 player.gd::GDScript::4140473085654622286::1734541135::0::1::::<>CharacterBody2D<><><>::
 player.tscn::PackedScene::4900021495655146182::1734551771::0::1::::<><><><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>uid://by8w8sy2caiug::::res://player.gd
@@ -12,9 +13,8 @@ player.tscn::PackedScene::4900021495655146182::1734551771::0::1::::<><><><>::uid
 colorpicker_presets.gd::GDScript::154793788006025666::1734507167::0::1::::<>EditorPlugin<><><>::
 plugin.cfg::TextFile::-1::1734507167::0::1::::<><><><>::
 README.md::TextFile::-1::1734507167::0::1::::<><><><>::
-::res://characters/::1734551723.0
+::res://characters/::1734551795.0
 ground_shadow.png::CompressedTexture2D::4668018078467755571::1734507167::1734507191::1::::<><><>60a6f91138009a5e14677d0e89feec49<>res://.godot/imported/ground_shadow.png-b9267d10ca04362d5b540659e4ab0dbd.ctex::
-mob.tscn::PackedScene::7184720074694648769::1734551723::0::1::::<><><><>::uid://ogik4s70pgwl::::res://characters/slime/slime.tscn
 ::res://characters/happy_boo/::1734541364.0
 happy_boo.gd::GDScript::4262029187970692907::1734507167::0::1::::<>Node2D<><><>::
 happy_boo.tscn::PackedScene::31049085407951015::1734541364::0::1::::<><><><>::uid://b1ys86y16tckh::::res://characters/happy_boo/happy_boo.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://ng8e5ot0dtpd::::res://characters/happy_boo/square_foot.png<>uid://dhapxq8y8ow57::::res://characters/happy_boo/square_lower_leg.png<>uid://qmqpm6asge1i::::res://characters/happy_boo/square_upper_leg.png<>uid://cksiu5gst6fmp::::res://characters/happy_boo/square_body.png<>uid://cvs0lh814pk7h::::res://characters/happy_boo/square_face.png
