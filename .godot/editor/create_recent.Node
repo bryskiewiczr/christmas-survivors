@@ -1,3 +1,4 @@
-ColorRect
-CollisionShape2D
 CharacterBody2D
+CollisionShape2D
+StaticBody2D
+ColorRect
